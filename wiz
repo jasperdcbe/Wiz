@@ -3,7 +3,7 @@ WIZ_REQUIRED_PHP_VERSION="5.2"
 WIZ_FOUND_PHP=0
 
 # In case the Path isn't allready set by the User
-if [ "" == "$WHIZ_SCRIPT_PATH" ]; then
+if [ "" == "$WIZ_SCRIPT_PATH" ]; then
     SOURCE="${BASH_SOURCE[0]}"
     WIZ_SCRIPT_PATH="$( dirname "$SOURCE" )"
 
